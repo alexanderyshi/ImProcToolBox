@@ -4,6 +4,9 @@ clear all;
 close all;
 clc;
 
+addpath('./scripts');
+addpath('./images');
+
 lena_fname = 'lena.tiff';
 lena = imread(lena_fname);
 lena_gray = im2double(rgb2gray(lena));
